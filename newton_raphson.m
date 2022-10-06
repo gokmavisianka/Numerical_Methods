@@ -23,3 +23,4 @@ function result = f_prime(value)
     y = diff(exp(-x) - x);
     result = vpa(subs(y, x, value));
 end
+
