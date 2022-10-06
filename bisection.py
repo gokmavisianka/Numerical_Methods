@@ -6,11 +6,11 @@ def f(x):
 
 def float_input(text):
     while True:
-	try:
-	    value = float(input(text))
-	    return value
-	except Exception as exception:
-	    print(exception)
+        try:
+            value = float(input(text))
+            return value
+        except Exception as exception:
+        print(exception)
 
 def bisection():
     xl = float_input("xl: ")
