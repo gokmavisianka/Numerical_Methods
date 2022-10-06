@@ -1,7 +1,8 @@
 from math import exp
 
 def f(x):
-	result = exp(-x) - x	return result
+    result = exp(-x) - x	
+    return result
 
 def float_input(text):
 	while True:
