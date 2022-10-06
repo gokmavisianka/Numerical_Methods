@@ -10,7 +10,7 @@ def float_input(text):
             value = float(input(text))
             return value
         except Exception as exception:
-        print(exception)
+            print(exception)
 
 def bisection():
     xl = float_input("xl: ")
