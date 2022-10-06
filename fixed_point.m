@@ -15,5 +15,5 @@ function fixed_point()
 end
 
 function result = f(x)
-    result = exp(-x)
+    result = exp(-x);
 end
