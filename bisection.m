@@ -29,5 +29,5 @@ function bisection()
 end
 
 function result = f(x)
-    result = exp(-x) - x
+    result = exp(-x) - x;
 end
