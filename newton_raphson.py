@@ -32,5 +32,6 @@ def newton_raphson():
              break
          i += 1
 
-newton_raphson()
+if __name__ == "__main__":
+    newton_raphson()
 
