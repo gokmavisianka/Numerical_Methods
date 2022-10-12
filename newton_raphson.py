@@ -28,10 +28,9 @@ def newton_raphson():
          x.append(x[i] - f(x[i]) / f_prime(x[i]))
          epsilon.append(abs((x[i + 1] - x[i]) / x[i + 1]) * 100)
          if epsilon[i] < TC:
-             print(f"approximate root: {x[i+1]}, iterations: {i}")
+             return {"approximate root": x[i+1], "iterations": i}
              break
          i += 1
 
 if __name__ == "__main__":
-    newton_raphson()
-
+    print(newton_raphson())
